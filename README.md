@@ -1,5 +1,5 @@
 # stylelint-cssnano-ignore
-Stylelint plugin for using [`cssnano-ignore-plugin`](https://github.com/anikethsaha/stylelint-cssnano-ignore) without any issues
+Stylelint plugin for using [`cssnano-ignore-plugin`](https://github.com/anikethsaha/cssnano-ignore-plugin) without any issues
 
 ## Install 
 
