@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should throw error for adding ignore comment at atRule 1`] = `"cssnano-ignore-line comment written for wrong node type 'atrule' i.e 'media' at line 3:2 (cssnano-ignore-plugin/no-wrong-line-comment)"`;
+
+exports[`should throw error for adding ignore comment at selector 1`] = `"cssnano-ignore-line comment written for wrong node type 'rule' i.e 'ul li' at line 2:3 (cssnano-ignore-plugin/no-wrong-line-comment)"`;
