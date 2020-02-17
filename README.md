@@ -1,4 +1,7 @@
 # stylelint-cssnano-ignore
+
+![CI tests](https://github.com/anikethsaha/stylelint-cssnano-ignore/workflows/CI%20tests/badge.svg?branch=master&event=push)
+
 Stylelint plugin for using [`cssnano-ignore-plugin`](https://github.com/anikethsaha/cssnano-ignore-plugin) without any issues
 
 ## Install 
