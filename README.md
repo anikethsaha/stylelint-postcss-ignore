@@ -26,7 +26,7 @@ Add this config to your .stylelintrc or stylelint config inside package.json:
 ## Detail
 
 ```css
-/* cssnano-ignore-line */
+/* postcss-ignore-line */
 ul li {
   color: red;
 }
