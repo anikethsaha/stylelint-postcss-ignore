@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-cssnano-ignore",
+  "name": "stylelint-postcss-ignore",
   "version": "0.1.0",
   "description": "stylelint plugin for cssnano-ignore-plugin",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   "files": [
     "dist"
   ],
-  "repository": "anikethsaha/stylelint-cssnano-ignore",
+  "repository": "anikethsaha/stylelint-postcss-ignore",
   "author": {
     "name": "anikethsaha",
     "email": "anik220798@gmail.com"

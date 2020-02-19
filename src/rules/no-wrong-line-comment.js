@@ -1,9 +1,9 @@
 let stylelint = require('stylelint');
 
-let ruleName = 'cssnano-ignore-plugin/no-wrong-line-comment';
+let ruleName = 'stylelint-postcss-ignore/no-wrong-line-comment';
 let messages = stylelint.utils.ruleMessages(ruleName, {
   expected: function(value) {
-    return `cssnano-ignore-line comment written for wrong node type ${value}`;
+    return `postcss-ignore-line comment written for wrong node type ${value}`;
   },
 });
 
@@ -15,7 +15,7 @@ module.exports = stylelint.createPlugin(ruleName, function(enable) {
     let commentsIgnoredLineData = [];
 
     root.walk((node) => {
-      if (node.type === 'comment' && node.text === 'cssnano-ignore-line') {
+      if (node.type === 'comment' && node.text === 'postcss-ignore-line') {
         let commentData = {
           commentedLine: node.source.start.line,
           ignoredLine: node.source.start.line + 1,

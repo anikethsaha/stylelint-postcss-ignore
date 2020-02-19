@@ -7,7 +7,7 @@ const run = (css) =>
     stylelint({
       configBasedir: path.join(__dirname, '../../'),
       rules: {
-        'cssnano-ignore-plugin/no-wrong-line-comment': true,
+        'stylelint-postcss-ignore/no-wrong-line-comment': true,
       },
       plugins: ['./src'],
     }),
