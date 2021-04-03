@@ -23,7 +23,7 @@
     "email": "anik220798@gmail.com"
   },
   "peerDependencies": {
-    "stylelint": "^7.0.0 || ^8.0.0"
+    "stylelint": "^13.2.0"
   },
   "license": "MIT",
   "devDependencies": {
